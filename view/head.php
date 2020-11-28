@@ -3,7 +3,6 @@
     switch($view){
         case 'index':
             ?>
-            <head>
                 <meta charset="UTF-8">
                 <meta name="description" content="Ogani Template">
                 <meta name="keywords" content="Ogani, unica, creative, html">
@@ -23,14 +22,17 @@
                 <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
                 <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
                 <link rel="stylesheet" href="css/style.css" type="text/css">
-            </head>
             <?php
         break;
         case 'login':
             ?>
-            <head>
-            <link rel="stylesheet" href="css/login.css" type="text/css">
-            </head>
+                <link rel="stylesheet" href="css/custom-login.css" type="text/css">
+            <?php
+        break;
+        case 'sign-up':
+            ?>
+                <link rel="stylesheet" href="css/custom-sign-up.css" type="text/css">
+                
             <?php
         break;
         default : 

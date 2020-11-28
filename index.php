@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-    $view = (isset($_POST['view']) && !empty($_POST['view'])) ? $_POST['view'] : "index";
-    include("view/head.php");
+    // tóm tắt : nếu tồn tại biến post(view) và không rỗng thì $view = post(view),thỏa dk thì $view = index
+    $view = (isset($_POST['view']) && !empty($_POST['view'])) ? $_POST['view'] : "index";  
 ?>
+<head>
+    <?php
+        include("view/head.php");
+    ?>
+</head>
 <body>
     <?php
-        
-        // tóm tắt : nếu tồn tại biến post(view) và không rỗng thì $view = post(view), dk thì $view = index
-        echo $view;
         switch($view){
             case 'index':
                 include("view/trangchu/body.php");

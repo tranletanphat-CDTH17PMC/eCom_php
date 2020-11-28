@@ -18,8 +18,13 @@
 ?>
             <script src="js/login.js"></script>
 <?php
-        echo "asdasdasdknnj";
         break;
+?>
+<?php
+        case 'sign-up':
+        break;
+?>
+<?php        
         default :
             echo "Default";
         break;

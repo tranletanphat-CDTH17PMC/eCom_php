@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #0366D6;
+}
+body {
+    background: linear-gradient(to left,#48af14,#aaec87);
+}
+
+h1{ 
+  color: #000000;
+  width: 260px;
+  margin: 100px auto 0;
+  padding: 20px 20px 10px 20px;
+  text-shadow: 2px 2px #daeeea;
+}
+
+.form-login{
+  background: #f5f5f5;
+  width: 260px;
+  margin: 0 auto 0;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+form label{
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+label > a{
+  float:right;
+  font-size: 15px;
+}
+
+
+dd{
+    margin-left:0;
+}
+input {
+  width: 240px;
+  display: block;
+  border: none;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  border: solid 1px #1abc9c;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, rgba(255, 255, 255, 0) 5%);
+}
+
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+}
+
+.form-login button {
+  height: 40px;
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  width: 240px;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-login button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-login button:focus, button:valid{
+  box-shadow: none;
+  outline: none;
+}
+.to-sign-up{
+  text-align: center;
+  display: block;
+  background: #f5f5f5;
+  width: 260px;
+  margin: 15px auto 0;
+  padding: 10px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+p {
+  display: inline;
+}
+.btn-sign-up{
+  cursor: pointer;
+  display: inline;
+  background: none;
+  border: none;
+  color:#0366D6;
+}
