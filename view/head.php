@@ -1,42 +1,44 @@
+<meta charset="UTF-8">
+<meta name="description" content="Ogani Template">
+<meta name="keywords" content="Ogani, unica, creative, html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Ogani | Template</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
 
 <?php
+
     switch($view){
-        case 'index':
-            ?>
-                <meta charset="UTF-8">
-                <meta name="description" content="Ogani Template">
-                <meta name="keywords" content="Ogani, unica, creative, html">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta http-equiv="X-UA-Compatible" content="ie=edge">
-                <title>Ogani | Template</title>
-
-                <!-- Google Font -->
-                <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-
-                <!-- Css Styles -->
-                <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-                <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-                <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-                <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-                <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-                <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-                <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-                <link rel="stylesheet" href="css/style.css" type="text/css">
-            <?php
-        break;
         case 'login':
-            ?>
-                <link rel="stylesheet" href="css/custom-login.css" type="text/css">
-            <?php
+            echo "css login";
+?>
+            <link rel="stylesheet" href="css/custom-login.css" type="text/css">
+<?php
         break;
         case 'sign-up':
-            ?>
-                <link rel="stylesheet" href="css/custom-sign-up.css" type="text/css">
+            echo "css sign up";
+
+?>
+            <link rel="stylesheet" href="css/custom-sign-up.css" type="text/css">
                 
-            <?php
+<?php
         break;
         default : 
-            echo "Default";
+            echo "Default css";
+?>
+            <!-- Css Styles -->
+            <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+            <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+            <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+            <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+            <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+            <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+            <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+            <link rel="stylesheet" href="css/style.css" type="text/css">
+<?php
         break;
     };
 ?>

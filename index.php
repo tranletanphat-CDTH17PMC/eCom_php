@@ -13,20 +13,22 @@
     <?php
         switch($view){
             case 'index':
-                include("view/trangchu/body.php");
-                include("view/footer-js.php");
+                include("view/home/body.php");
+                include("view/js.php");
             break;
             case 'login':
-                include("view/nguoidung/login.php");
-                include("view/footer-js.php");
+                include("view/users/login.php");
+                include("view/js.php");
             break;
             case 'sign-up':
-                include("view/nguoidung/sign-up.php");
-                include("view/footer-js.php");
+                include("view/users/sign-up.php");
+                include("view/js.php");
             break;
-            default : 
-                include("view/trangchu/body.php");
-                include("view/footer-js.php");
+            case 'shop-grid':
+                include("view/store/shop-grid.php");
+                include("view/store/js.php");
+            break;
+            default: 
             break;
         };
     ?>

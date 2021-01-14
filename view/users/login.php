@@ -1,6 +1,7 @@
 
-<div>
-    <h1>Log in to Ogani</h1>
+<div class="sgu">
+    <a class="logo" href="."><img src="img/logo.png" alt=""></a>
+    <h1 class="title">Login to Ogani</h1>
 </div>
 <form class="form-login" action="." method="post" >
     <dl> 

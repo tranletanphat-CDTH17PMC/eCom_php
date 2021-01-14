@@ -3,6 +3,96 @@
     box-sizing: border-box;
 
 }
-body{
-    
+a{
+    text-decoration: none;
+    color: #0366D6;
 }
+body {
+    background: linear-gradient(to left,#d5f1c6,#aaec87);
+}
+
+.sgu{
+    margin: 50px auto 0;
+    width: 320px;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+}
+.title{ 
+    color: #000000;
+    text-shadow: 2px 2px #daeeea;
+}
+.form-signup{
+    border-radius: 5px;
+    background: #f5f5f5;
+    width: 320px;
+    margin: 0 auto 0;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.form-signup label{
+    font-weight: 600;
+    margin: 5px 0px ;
+    display: block;
+}
+.form-signup input{
+    display: block;
+    padding: 10px 5px 10px 5px;
+    width: 300px;
+    border: solid 1px #969696;
+    border-radius: 5px;
+}
+
+.form-signup input:focus{
+    outline: none;
+    box-shadow: 0 0 3pt 2pt #70bfe4;
+}
+
+.form-signup button{
+    display: block;
+    margin: 10px auto 0;
+    height: 40px;
+    border: none;
+    background: #1abc9c;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    color: #f5f5f5;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-signup button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+.form-signup button:focus, button:valid{
+    box-shadow: none;
+    outline: none;
+}
+.to-login{
+    text-align: center;
+    display: block;
+    width: 320px;
+    background: #f5f5f5;
+    margin: 15px auto 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.to-login{
+    border: non;
+}
+
+.to-login p{
+    display: inline;
+    text-align: center;
+}
+
+.btn-login{
+    cursor: pointer;
+    display: inline;
+    background: none;
+    border: none;
+    color: #0366d6;
+}
+
